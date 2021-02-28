@@ -26,13 +26,13 @@ to your configuration.yaml:
 
 ```yaml
 opnsense:
-  url: https://router/api
+  url: https://router:portnumber/api
   api_secret: API_SECRET
   api_key: API_KEY
 ```
 
 Where the `api_key` and `api_secret` values are acquired from your OPNsense
-router using the web interface. For more information on this procedure, refer
+router using the web interface (portnumber). For more information on this procedure, refer
 to the OPNsense [documentation](https://docs.opnsense.org/development/how-tos/api.html#creating-keys).
 
 User with API Key requires privileges for Type: 
